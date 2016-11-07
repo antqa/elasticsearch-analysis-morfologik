@@ -7,7 +7,13 @@ Originally created by [monterail](https://github.com/monterail/elasticsearch-ana
 
 Simply run at the root of your ElasticSearch according to the version you use (assuming zip file located at / directory):
 
-- 2.4.1 
+- 5.0.0
+
+  ```bash
+  $ bin/elasticsearch-plugin install https://github.com/antqa/elasticsearch-analysis-morfologik/releases/download/5.0.0/elasticsearch-analysis-morfologik-5.0.0.zip
+  ```
+
+- 2.4.1
 
   ```bash
   $ bin/plugin install https://github.com/antqa/elasticsearch-analysis-morfologik/releases/download/2.4.1/elasticsearch-analysis-morfologik-2.4.1.zip
